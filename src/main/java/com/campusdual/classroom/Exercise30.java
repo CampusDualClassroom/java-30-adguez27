@@ -3,7 +3,7 @@ package com.campusdual.classroom;
 public class Exercise30 {
 
     public static int divisionWithCustomException(int dividend, int divisor){
-        int res = 0;
+        int res;
     try{
         res = dividend/divisor;
     } catch (ArithmeticException e) {
